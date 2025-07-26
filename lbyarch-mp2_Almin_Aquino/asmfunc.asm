@@ -1,17 +1,19 @@
 section .text
+bits 64
+default rel
 
+global asmhello
+extern printf
+extern puts
 
-global main
+; Using puts instead (simpler - no format string needed)
+section .data
+msg db "Hello World", 0
 
-
-main:
-    mov ebp, esp ; for correct debugging
-
-    mov rax, rax
-    
-
-imgCvtGrayInttoFloat: 
-
-    
-
-    ret ; return
+section .text
+asmhello:
+    sub rsp, 32
+    lea rcx, [msg]
+    call puts
+    add rsp, 32
+    ret

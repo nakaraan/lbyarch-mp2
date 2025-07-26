@@ -20,8 +20,12 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <None Include="asmfunc.asm">
+    <CustomBuild Include="asmfunc.asm">
       <Filter>Source Files</Filter>
-    </None>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="asmfunc.txt" />
+    <Text Include="main.txt" />
   </ItemGroup>
 </Project>
