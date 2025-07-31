@@ -1,4 +1,0 @@
-﻿  Performing Custom Build Tools
-  x64\Debug\.obj: fatal: no input file specified
-  Type C:\Program Files\NASM\nasm.exe -h for help.
-C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(254,5): error MSB8066: Custom build for 'asmfunc.asm' exited with code 1.

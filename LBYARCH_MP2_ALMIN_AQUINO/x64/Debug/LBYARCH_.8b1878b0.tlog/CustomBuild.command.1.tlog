@@ -1,0 +1,2 @@
+^C:\USERS\AKARAAN\SOURCE\REPOS\LBYARCH_MP2_ALMIN_AQUINO\LBYARCH_MP2_ALMIN_AQUINO\IMGCONVERT.ASM
+C:\Users\Akaraan\source\NASM\nasm.exe -f win64 -o x64\Debug\imgconvert.obj imgconvert.asm
