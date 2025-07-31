@@ -11,7 +11,8 @@ An x86-64 and C programming project in fulfillment of the requirements of LBYARC
 
 It can be seen in the screenshot above that the screen output matches the sample run in the project specifications.
 
-<img width="2704" height="1500" alt="image" src="https://github.com/user-attachments/assets/3e98504e-0618-4ace-9f0b-183445676fe0" />
+<img width="2319" height="1200" alt="image" src="https://github.com/user-attachments/assets/50327bcb-70f3-44d6-9319-7ec90deb9893" />
+
 
 To confirm this, attached is another screenshot to show the values lining up:
 
